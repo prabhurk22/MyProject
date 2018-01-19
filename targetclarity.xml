@@ -1,0 +1,14 @@
+<project name="target" default="two">
+    <target name="one">
+            <echo message="Hi 1"/>
+    </target>
+
+    <target name="two" depends="main,one">
+            <echo message="Hi 2"/>
+    </target>
+
+    <target name="main">
+            <echo message="Hi 3"/>
+    </target>
+
+</project>
