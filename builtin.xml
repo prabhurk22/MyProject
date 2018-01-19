@@ -1,0 +1,8 @@
+<project name="builtin" default="test">
+<target name="test">
+        <echo message="basedir=${basedir}"/>
+        <echo message="antfile=${ant.file}"/>
+        <echo message="antversion=${ant.version}"/>
+        <echo message="antprojectname=${ant.project.name}"/>
+</target>
+</project>

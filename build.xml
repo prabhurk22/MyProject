@@ -1,0 +1,11 @@
+<project name="test" default="run">
+      <target name="zip" depends="compile">
+          <echo message="hii"/>
+      </target>
+      <target name="compile">
+          <echo message="hii"/>
+      </target>
+      <target name="run" depends="zip">
+          <echo message="hii"/>
+      </target>
+</project>
